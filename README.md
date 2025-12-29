@@ -28,7 +28,8 @@ I am using Task as build system. [go-task](https://taskfile.dev/)
 ## Usage
 
 Update the assets
-```task update-assets
+```
+task update-assets
 ```
 
 Build the project for dev
