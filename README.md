@@ -6,11 +6,18 @@ This is the template for bevy project for WebGL.
 
 You need rustup to build wasm and also wasm-bindgen to get JS bindings.
 
-Installing rust up
-
+### Installing rust up
+Linux
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
+Windows
+
+Download and install rustup from
+```
+https://rust-lang.org/tools/install/
+```
+
 Add rust wasm target and wasm-bindgen
 ```
 rustup target add wasm32-unknown-unknown
@@ -23,6 +30,28 @@ For Fish
 set -Ux PATH $HOME/.cargo/bin $PATH
 ```
 I am using Task as build system. [go-task](https://taskfile.dev/)
+
+## Install Task 
+
+### Windows
+
+using scoop
+```
+scoop install task
+```
+
+### Linux
+
+Arch
+```
+pacman -S go-task
+```
+
+Ubuntu/Debian
+```
+curl -1sLf 'https://dl.cloudsmith.io/public/task/task/setup.deb.sh' | sudo -E bash
+sudo apt install task
+```
 
 
 ## Usage
