@@ -51,6 +51,9 @@ Ubuntu/Debian
 ```
 curl -1sLf 'https://dl.cloudsmith.io/public/task/task/setup.deb.sh' | sudo -E bash
 sudo apt install task
+
+## Install python
+In order to run the server I am using python so make sure python is installed in the system
 ```
 
 
